@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+font-family: "Anonymous Pro";
+src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  background-color: #f1f1f1;
+}
+
+.sneaker {
+  vertical-align: top;
+  display: inline-block;
+  max-width: 371.5px;
+  margin: 15px 15px 15px 0;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.footer {
+  justify-content: space-around;
+  display: flex;
+  margin-top: 20px;
+  height: max-content;
+  background: #121723;
+}
+
+.footer-a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  background: #ffffff;
+  border-bottom: 1px solid #a1a6b4;
+}
+
+.header-a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-div {
+  position: relative;
+  left: 172px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  margin-right: 250px;
+}
+
+.hr { width: 1150px; }
+
+.h2 {
+  margin: 10px 0 0 0;
+  font: 500 48px "Anonymous Pro";
+  color: #121723;
+}
+
+.h3 {
+  margin: 25px 25px 0 25px;
+  font: bold 26px "Anonymous Pro";
+  color: #121723;
+}
+
+.h4 {
+  text-align: center;
+  margin-top: 20px;
+  font: 16px "Anonymous Pro";
+  color: #a1a6b4;
+}
+
+main { margin: auto; }
+
+.header-nav {
+  margin-right: 120px;
+}
+
+.footer-div-orientation {
+  margin-right: 30px;
+}
+
+.footer-div-one-part {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.p {
+  margin: 10px 25px 30px;
+  font: normal 20px "Anonymous Pro";
+  color: #121723;
+}
+
+.main-div-width { max-width: 1180px; }
+
+.ul {
+  display: flex;
+  gap: 24px;
+  font: bold 20px "Anonymous Pro";
+  list-style-type: none;
+}
