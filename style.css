@@ -10,34 +10,34 @@ src: url(fonts/AnonymousPro-Regular.ttf);
 }
 
 body {
+  min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
   margin: 0%;
   padding: 0%;
   background-color: #f1f1f1;
 }
 
 .sneaker {
-  vertical-align: top;
-  display: inline-block;
   max-width: 371.5px;
+  display: inline-block;
+  vertical-align: top;
   margin: 15px 15px 15px 0;
-  background-color: #ffffff;
   border-radius: 12px;
+  background-color: #ffffff;
 }
 
 .footer {
-  justify-content: space-around;
-  display: flex;
-  margin-top: 20px;
   height: max-content;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
   background: #121723;
 }
 
 .footer-a {
-  text-decoration: none;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .header {
@@ -45,22 +45,22 @@ body {
   height: 80px;
   padding-top: 10px;
   padding-bottom: 2px;
-  background: #ffffff;
   border-bottom: 1px solid #a1a6b4;
+  background: #ffffff;
 }
 
 .header-a {
-  text-decoration: none;
   color: #000000;
+  text-decoration: none;
 }
 
 .header-div {
+  width: 100%;
   position: relative;
   left: 172px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  display: flex;
-  width: 100%;
   margin-right: 250px;
 }
 
@@ -81,8 +81,8 @@ body {
 .h4 {
   text-align: center;
   margin-top: 20px;
-  font: 16px "Anonymous Pro";
   color: #a1a6b4;
+  font: 16px "Anonymous Pro";
 }
 
 main { margin: auto; }
@@ -96,15 +96,15 @@ main { margin: auto; }
 }
 
 .footer-div-one-part {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  display: flex;
 }
 
 .p {
   margin: 10px 25px 30px;
-  font: normal 20px "Anonymous Pro";
   color: #121723;
+  font: normal 20px "Anonymous Pro";
 }
 
 .main-div-width { max-width: 1180px; }
@@ -112,6 +112,6 @@ main { margin: auto; }
 .ul {
   display: flex;
   gap: 24px;
-  font: bold 20px "Anonymous Pro";
   list-style-type: none;
+  font: bold 20px "Anonymous Pro";
 }
